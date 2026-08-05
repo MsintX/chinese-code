@@ -1,7 +1,7 @@
 // Chinese Code Test Code
 #include "ChineseCode.hpp"
 
-声明 命名空间 标准库;
+声明 命名空间 标准域;
 
 整数 主函数() {
 	设置控制台输出编码(65001);
