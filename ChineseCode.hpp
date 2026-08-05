@@ -107,6 +107,7 @@
 #endif
 
 // 未分类
+#define 标准库      std
 #define 声明        using
 #define 定义类型别名 using
 #define 命名空间    namespace
