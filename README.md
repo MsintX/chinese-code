@@ -1,13 +1,23 @@
 > 部分宏依赖C++ 20支持，标准版本不建议低于20，否则可能导致编译器报错/无法使用部分宏
 > 引入该文件可能造成全局污染（define并不会被包含在命名空间） 请谨慎include。
 
+<p align="center">
+<img src="./assets/logo.png"/>
+</p>
+
+<div align="center">
+
+# ChineseCode
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/MsintX/chinese-code)](https://github.com/MsintX/chinese-code/releases) ![GitHub Release Date](https://img.shields.io/github/release-date/MsintX/chinese-code) ![GitHub All Releases](https://img.shields.io/github/downloads/MsintX/chinese-code/total) ![GitHub stars](https://img.shields.io/github/stars/MsintX/chinese-code?style=flat) ![GitHub forks](https://img.shields.io/github/forks/MsintX/chinese-code)
+
+`ChineseCode.hpp`是一个使用宏为C++部分关键词定义中文别名的头文件
+
+</div>
+
 ## 开发者的留言
 中文编程**不能**直接替代原版C++，英文关键字不是一句没空格的词语能替代，报错会提示原错误信息（换句话说，你写**整数** 1.2; 编译器不会提示无法转换整数 会提示无法将**int**隐式转换为double。），语法也涉及英文及其半角字符（小括号、花括号 include等）
 如果你真的对编程感兴趣，那就不应该在“中英文”这里被卡住，本文件可能并不包含全部的指令。
-
-# ChineseCode(Head Files)
-
-这是一个使用宏将C++部分英文关键字替换为中文（准确来说是定义别）的头文件
 
 ## 使用方法
 使用方法分为2种，推荐使用方法1。
@@ -17,10 +27,11 @@
 
 ## 代码比较示例
 
-```cpp (Chinese)
+```cpp
+// 中文
 #include "ChineseCode.hpp"
 
-声明 命名空间 std; // 提醒一句 这里不推荐直接声明整个命名空间
+声明 命名空间 标准域;
 
 整数 主函数() {
   输出 << "你好，世界！" << 换行强制刷新缓冲区;
@@ -28,10 +39,11 @@
 }
 ```
 
-```cpp (English)
+```cpp
+// English
 #include <iostream>
 
-using namespace std; //与上述一致
+using namespace std;
 
 int main() {
   cout << "Hello World!" << endl;
@@ -131,15 +143,14 @@ define，在C++的作用为定义一个宏，可以理解成为命令起别名 �
 > Tips:最终解释权归开发者[MsintX](mailto:msintx@sina.cn)所有
 
 ## 更新日志
-> Tips:此处粘贴了日志原文，但这种方式已经弃用。请查看[更新日志文件](./UpdateLog.md)。
-``` Log
-2026/8/4
-无，介绍请见README
-
-2026/8/5
-修改了vector（向量更改为动态数组）等宏的名称。
-添加了“声明”“定义类型别名”“命名空间”等宏。
-修复了#define 长度 .size()存在歧义且部分场景报错的问题。
+> 请查看[更新日志文件](./UpdateLog.md)，此处为你提示日志格式。
+``` Markdown
+## 版本号
+更新日志
+  
+## 版本号
+更新日志
+……
 ```
 
 ## 更新计划&质量说明
