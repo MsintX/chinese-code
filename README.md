@@ -159,7 +159,7 @@ define，在C++的作用为定义一个宏，可以理解成为命令起别名 �
 > 文件/项目在安全扩展结束后仍可能有特例更新。
 
 ## 关于我们
-"HitBits Lab"是由[MsintX](https://Github.com/MsintX)创建的非商业团队。我们将持续产出应用、游戏（计划中）以及各种奇奇怪怪的想法。你也可以去[官网](https://hitbits.cn/)了解更多（预计在2027年建站）
+"HitBits Lab"是由[MsintX](https://Github.com/MsintX)创建的非商业团队。我们将持续产出应用、游戏（计划中）以及各种奇奇怪怪的想法。你也可以去[官网](https://hitbits.site/)了解更多
 
 ## 赞助我们
 HitBits Lab使用的IDE为[Visual Studio 2026](https://visualstudio.microsoft.com/zh-hans/) Community（C#/WinUI/WPF）或[CLion](https://www.jetbrains.com/zh-cn/clion/)非商业授权版本（C/C++），因此不会通过付费分发或赞助来获取利益。感谢你的支持，这将会是HitBits Lab前进的动力！
